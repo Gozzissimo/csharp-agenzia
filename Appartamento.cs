@@ -25,7 +25,7 @@ namespace csharp_agenzia
 
         protected override string Write()
         {
-            return string.Format("{0}\n Numero Vani:{1}\n Numero Bagni:{2}",
+            return string.Format("{0}Numero Vani:{1}\nNumero Bagni:{2}",
                 base.Write(),
                 iNumeroVani,
                 iNumeroBagni);

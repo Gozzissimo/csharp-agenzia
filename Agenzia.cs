@@ -52,23 +52,25 @@ namespace csharp_agenzia // Note: actual namespace depends on the project name.
             lImmobili.Add(immobile);
         }
 
+
+
         public List<Immobile> SearchImmobili(string key)
         {
-            //return lImmobili.FindAll(i => i.Contains(key)); PRIMA OPZIONE
+            return lImmobili.FindAll(i => i.Contains(key)); //PRIMA OPZIONE
 
-            List<Immobile> lSottoLista = new List<Immobile>(); //SECONDA OPZIONE
-            foreach (Immobile mioImmobile in lImmobili)
-            {
-                if (mioImmobile.Contains(key))
-                {
-                    lSottoLista.Add(mioImmobile);
-                }
-                else
-                {
-                    return lSottoLista;
-                }
-                
-            }
+            //List<Immobile> lSottoLista = new List<Immobile>(); //SECONDA OPZIONE
+            //foreach (Immobile mioImmobile in lImmobili)
+            //{
+            //    if (mioImmobile.Contains(key))
+            //    {
+            //        lSottoLista.Add(mioImmobile);
+            //    }
+            //    else
+            //    {
+            //        return lSottoLista;
+            //    }
+
+            //}
         }
 
     }

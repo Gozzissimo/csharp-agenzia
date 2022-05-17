@@ -39,7 +39,7 @@ namespace csharp_agenzia
 
         protected virtual string Write()
         {
-            return string.Format("Codice: {0}\nIndirizzo: {1}\nCap: {2}\nCittà: {3}\nSuperficie: {4}\n",
+            return string.Format("Codice: {0}\nIndirizzo: {1}\nCap: {2}\nCittà: {3}\nSuperficie: {4} mq\n",
                 this.sCodice,
                 this.sIndirizzo,
                 this.sCap,

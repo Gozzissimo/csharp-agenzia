@@ -23,9 +23,9 @@ namespace csharp_agenzia
 
         protected override string Write()
         {
-            return string.Format("{0}\n Posti Auto:{1}",
+            return string.Format("{0}Posti Auto: {1}",
                 base.Write(),
-                this.iPostiAuto);
+                iPostiAuto);
         }
         public override bool Contains(string key)
         {
@@ -36,5 +36,4 @@ namespace csharp_agenzia
 
     }
 
-}
 }
