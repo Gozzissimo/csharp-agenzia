@@ -33,6 +33,5 @@ namespace csharp_agenzia
             else if (iMqGiardino.ToString().Contains(key)) return true;
             else return false;
         }
-
     }
 }

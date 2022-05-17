@@ -26,6 +26,7 @@ namespace csharp_agenzia // Note: actual namespace depends on the project name.
                 Console.WriteLine(i.ToString());
                 Console.WriteLine("-------------------------------------------");
             }
+            Console.WriteLine("---End---");
         }
     }
 }
